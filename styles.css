@@ -1,0 +1,12 @@
+.ycarousel {height: 135px; margin: 40px 0; position: relative;}
+.ycarousel-container {position: relative; overflow: hidden; width: 580px; height: 135px; margin: 0 auto;}
+.ycarousel-container ul {width: 20000em; position: absolute; list-style: none; margin: 0; padding: 0;}
+.ycarousel-container li {float: left; width: 180px; height: 135px; margin-right: 20px;}
+.ycarousel-container li a {display: block; width: 180px; height: 135px; position: relative; text-decoration: none;}
+.ycarousel-container li a img {display: block; position: absolute; top: 0; left: 0;}
+.ycarousel-container li a .play {width: 48px; height: 48px; position: absolute; top: 50%; left: 50%; margin: -24px 0 0 -24px; background: url("images/play.png") 0 0 no-repeat; opacity: .5;}
+.ycarousel-container li a .title {width: 160px; padding: 6px 10px 8px; background: rgba(0,0,0,.5); font-size: 11px; line-height: 1.2; color: #fff; position: absolute; bottom: 0; left: 0;}
+.ycarousel-container li a:hover .play {opacity: .75;}
+.ycarousel-prev, .ycarousel-next {width: 28px; height: 46px; position: absolute; top: 50%; margin-top: -23px;}
+.ycarousel-prev {left: 2px; background: url("images/ycarousel-next-prev.png") 0 0 no-repeat;}
+.ycarousel-next {right: 2px; background: url("images/ycarousel-next-prev.png") -28px 0 no-repeat;}
