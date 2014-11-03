@@ -1,7 +1,13 @@
 Youtube-Carousel-Gallery
 ========================
 
-This is Wordpress plugin adds support for the shortcode, which displays the carousel of Youtube videos.
+Простой плагин для Wordpress, который позволяет вставлять карусель из Youtube-видео в контент с помощью шорткода 
+**[ycarousel]**
 
-Usage:
-[ycarousel]Izs13nc8dik,ExaGQCiVfEk,1d7pj4Oc1kU,Izs13nc8dik,ExaGQCiVfEk,1d7pj4Oc1kU[/ycarousel]
+Миниатюры для видео автоматом подтягиваются с Youtube. Cтилизация с помощью **style.css** в папке плагина.
+
+###Как с этим работать###
+
+Вставить шорткод в контент в нужном месте и в тело шорткода прописать через запятую ID роликов через запятую:
+
+    [ycarousel]Izs13nc8dik,ExaGQCiVfEk,1d7pj4Oc1kU,Izs13nc8dik,ExaGQCiVfEk,1d7pj4Oc1kU[/ycarousel]
